@@ -13,6 +13,7 @@
 | `grill-me` | 需求不清楚时，让 AI 向你连环提问，把想法磨锋利再动手 |
 | `to-spec` | 把对话讨论固化成 spec 文档（问题陈述 → 用户故事 → 实现决策 → 测试决策） |
 | `setup-matt-pocock-skills` | 一次性配置向导：指定 to-spec 的问题跟踪器（GitHub issue / 本地文件等） |
+| `grilling` | grill-me 依赖的底层「拷问」引擎，由 grill-me 调用，也可单独使用 |
 
 均为「人主动调用」型（`disable-model-invocation: true`），不会自动触发，互不干扰。
 
